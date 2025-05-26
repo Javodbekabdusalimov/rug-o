@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(./asisent/1\ block.png);
+  filter: blur(10px);
+  background-size: cover;
+}
+.forma {
+  background-color: white;
+  width: 1180.2650146484375px;
+  height: 392.1844787597656px;
+  padding: 42px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  box-shadow: 4px 4px 4px 10px white;
+  position: static;
+  z-index: 22;
+}
+
+.forma h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.father__input {
+  display: flex;
+  gap: 25px;
+}
+.in {
+  width: 362.4922790527344px;
+  height: 50.724178314208984px;
+
+  border-width: 1px;
+  border-radius: 9px;
+  outline: none;
+  border: 1px solid grey;
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.bottom_input {
+  outline: none;
+  color: grey;
+  border: 1px solid grey;
+  width: 749.72802734375px;
+  height: 81.65354919433594px;
+  padding: 0px 10px;
+  border-width: 1px;
+  border-radius: 9px;
+}
+form button {
+  width: 169.49298095703125px;
+  height: 42.06394958496094px;
+
+  border-radius: 9px;
+  border: 1px solid purple;
+  background-color: purple;
+  color: white;
+}
+form button:hover {
+  background-color: white;
+  color: purple;
+}
+form button:active {
+  background-color: purple;
+  color: white;
+}
+@media (max-width: 768px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .father__input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-image: url(./asisent/1\ block.png);
+    filter: blur(10px);
+    background-size: cover;
+  }
+  .bottom_input {
+    width: 362.4922790527344px;
+    height: 50.724178314208984px;
+  }
+}
+@media (max-width: 430px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .father__input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-image: url(./asisent/1\ block.png);
+    filter: blur(10px);
+    background-size: cover;
+  }
+  .bottom_input {
+    width: 362.4922790527344px;
+    height: 50.724178314208984px;
+  }
+}
